@@ -1,0 +1,174 @@
+.one{
+    background-color: rgb(24, 66, 66);
+    height: 500px;
+    width: 100%;
+    /* padding: 5px; */
+}
+.one .d1 #profile:hover{
+    background-color: #fff;
+    color: black;
+}
+.d1 h1{
+    font-size: 40px;
+    color: antiquewhite;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+#hlit{
+    color: aqua;
+}
+.d1{
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin-left: 5%;
+}
+.d1 img{
+    width: 90%;
+}
+#profile{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(94, 71, 71);
+    font-weight: 700;
+    background-image: linear-gradient( lightblue, aqua);
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.service-section {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+section {
+    display: block;
+}
+ .card-container {
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card {
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+} 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.d1 p{
+    font-size: 20px;
+    color: gainsboro;
+}
+footer{
+    background-color: rgb(4, 9, 30);
+    color: white;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 200px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: aliceblue;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8293ff;
+}
+.sec6{
+    width: 100%;
+    height: 700px;
+}
+.sec6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+.sec6 .text4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.sec6 .text4 p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.sec6 .crd{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+.sec6 .crd1{
+    width: 300px;
+    height: 600px;
+    background: rgb(249, 249, 259);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sec6 .crd1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.sec6 .crd1 button{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.sec6 .crd1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25 ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+.sec6 .crd1:hover button{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
